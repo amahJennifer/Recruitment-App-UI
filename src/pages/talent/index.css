@@ -1,0 +1,75 @@
+.talentContainer{
+  display:flex;
+  justify-content: space-between;
+  padding-top:100px;
+  padding-bottom:150px;
+  background-image: url(../../images/circle2.png);
+  background-repeat: no-repeat;
+}
+
+.talentCard{
+   height:321px;
+  width:315px;
+  background:#EEF7EC;
+  border-radius: 5px;
+  text-align: center;
+  padding:30px;
+}
+.shortlist{
+  font-size: 40px;
+}
+.viewBtnContainer{
+  display: flex;
+  justify-content: space-around;
+    background: #5BA660;
+    height:50px;
+    text-align: center;
+padding-right:10px;
+padding-top:10px;
+border-radius: 5px;
+font-size: 20px;
+color:white;
+width:250px;
+}
+
+.talentName{
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.talentImg{
+  border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color:black;
+}
+
+.talentName{
+  color:#5BA660;
+}
+.talentName p{
+  color:black;
+}
+.talentLevel{
+  color:#5BA660;
+}
+
+
+@media (max-width: 768px) {
+
+   .talentContainer{
+     flex-direction: column;
+     margin-top:20px;
+     margin-left:20px;
+  padding:0;
+  background-image: none;
+   }
+
+.talentCard{
+  margin-top: 40px;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+}
+
