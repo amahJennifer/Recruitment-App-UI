@@ -1,0 +1,84 @@
+.firstSection{
+  display:flex;
+  justify-content: space-between;
+  background-image: url(../../images/circle.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: 1200px;
+}
+
+.text{
+  width:40%;
+padding-top:100px;
+padding-bottom:100px;
+margin-left:200px;
+}
+
+.bigText{
+font-family: 'Muli Bold';
+font-size:200px;
+line-height: 80px;
+}
+.getStartedBtn {
+	background: #5BA660;
+	color: white;
+	border-radius: 5px;
+	height: 40px;
+	width: 170px;
+  border: none;
+  margin-top:-5px;
+
+}
+.partnerContainer{
+  display:flex;
+  justify-content: space-between;
+}
+.partners{
+  display: flex;
+  justify-content: space-between;
+  background:#FAFAFA;
+  position :relative;
+  top:-100px;
+  height:150px;
+  padding-top:40px;
+}
+.partnerImage{
+  height:100%;
+}
+@media (max-width: 768px) {
+.firstSection{
+  flex-direction: column;
+  padding-left:20px;
+  padding-right:20px;
+width:100%
+}
+.partnerImage{
+  height:50%;
+}
+.bigText{
+  width:70%;
+
+}
+.text{
+  width:100%;
+}
+.manImage{
+  display:none;
+}
+.partners img{
+width:50px;
+height:50px;
+}
+.partners{
+  margin-top:40px;
+  justify-content:space-evenly;
+  padding:3px;
+  height:70px;
+
+}
+.company{
+display:none;
+}
+
+}
+
