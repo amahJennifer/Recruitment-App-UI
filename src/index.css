@@ -37,4 +37,13 @@ body {
   padding-left:200px;
   padding-right:200px;
 }
+.getStartedBtn {
+	background:#BBD355;
+	color: white;
+	border-radius: 5px;
+	height: 40px;
+	width: 170px;
+  border: none;
+  margin-top:-5px;
 
+}
