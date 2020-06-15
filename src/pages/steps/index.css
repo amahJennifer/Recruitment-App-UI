@@ -44,6 +44,22 @@ border: 1px solid #5BA660;
   margin-bottom:50px;
 }
 
+@media (max-width: 768px) {
+
+.steps{
+  flex-direction: column;
+  padding-left:50px;
+  padding-right:50px;
+}
+.stepsContainer{
+  margin:0;
+  padding:0;
+}
+.stepBox{
+margin-bottom:20px;
+}
+
+}
 
 
 
