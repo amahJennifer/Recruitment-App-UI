@@ -1,0 +1,36 @@
+.faqContainer{
+  display:flex;
+  justify-content: space-between;
+  padding-top:200px;
+  padding-bottom:200px;
+}
+
+.listItem{
+  display:flex;
+
+}
+
+.listContainer{
+  padding:20px;
+border-style: ridge;
+}
+.downArrow{
+  margin-left:30px;
+}
+
+.questions{
+  width:400px;
+}
+
+@media (max-width: 768px) {
+.faqContainer{
+  flex-direction: column;
+  padding:20px;
+}
+.listContainer{
+  margin-top: 30px;;
+}
+
+}
+
+

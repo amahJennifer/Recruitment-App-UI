@@ -4,6 +4,7 @@ import Steps from "../../pages/steps"
 import Talent from "../../pages/talent"
 import Tech from "../../pages/tech"
 import Company from "../../pages/company"
+import FAQ from "../../pages/faq"
 const index = () => {
   return (
     <>
@@ -12,6 +13,7 @@ const index = () => {
       <Talent />
       <Tech />
       <Company />
+      <FAQ />
     </>
   )
 }
