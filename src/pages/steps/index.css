@@ -1,0 +1,49 @@
+.stepsContainer{
+  text-align: center;
+  padding-bottom:30px;
+}
+
+.startBtn {
+	background:#5BA660;
+	color: white;
+	border-radius: 5px;
+	height: 60px;
+	width:250px;
+  border: none;
+  margin-top:-5px;
+
+}
+.steps{
+  display:flex;
+  justify-content: space-between;
+  padding-bottom:30px;
+  padding-top:30px;
+}
+
+.stepBox{
+  height:321px;
+  width:315px;
+  background:#EEF7EC;
+  border-radius: 5px;
+  text-align: left;
+  padding:30px;
+}
+.stepTopic{
+  padding-top:50px;
+}
+.stepBox hr{
+width:20%;
+margin-left:6px;
+border: 1px solid #5BA660;
+}
+.btnBox{
+  margin-top:70px;
+}
+.headerText{
+  font-size: 28px;
+  margin-bottom:50px;
+}
+
+
+
+
