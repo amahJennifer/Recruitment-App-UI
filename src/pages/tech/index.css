@@ -1,0 +1,39 @@
+
+.techContainer{
+text-align: center;
+padding:100px;  
+height:400px;
+background:#5BA660;
+color:white;
+}
+
+.helpBtn{
+  margin-top:20px;  
+  background:#BBD355;
+  margin-left:100px;
+  margin-right:100px;
+  height:50px;
+  width:200px;
+  border:none;
+  padding:10px 20px 10px 20px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.09);
+border-radius: 5px;
+color:white;
+}
+
+
+@media (max-width: 768px) {
+.techContainer{
+  margin-top:20px;
+}
+.helpBtn{
+margin:0;
+}
+
+.helpContainer{
+  margin-top:30px;
+}
+
+}
+
+
