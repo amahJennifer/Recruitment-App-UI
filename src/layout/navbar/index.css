@@ -1,15 +1,13 @@
-.getStartedBtn{
-  background:#BBD355;
-  color:white;
-  border-radius:5px;
-  height:40px;
-  width:170px;
+.getStartedBtn {
+	background:#BBD355;
+	color: white;
+	border-radius: 5px;
+	height: 40px;
+	width: 170px;
+  border: none;
+  margin-top:-5px;
+
 }
- a {
-  color:#5BA660;
+a {
+	color: #5ba660;
 }
-
-
-
-
-

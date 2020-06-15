@@ -6,7 +6,7 @@ import "./index.css";
 const index = () => {
   return (
 		<div className="container-fluid">
-			<nav className=" container navbar navbar-expand-lg navbar-light bg-white">
+			<nav className="container navbar navbar-expand-lg navbar-light bg-white">
 				<img src={logo} alt="logo"/>
 				<button
 					className="navbar-toggler"
