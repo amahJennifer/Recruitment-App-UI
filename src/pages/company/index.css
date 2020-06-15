@@ -1,0 +1,83 @@
+.companyContainer{
+  display: flex;
+  justify-content: space-between;
+   height:600px;
+   background-image: url(../../images/circle.png);
+  background-repeat: no-repeat;
+  background-position:right;
+  background-color:  #FAFAFA;
+}
+
+
+.emptyContainer{
+  background-color: #5BA660;
+  height:200px;
+}
+
+.companyCard{
+  display:flex;
+  height:330px;
+  width:700px;
+  padding:20px 40px 20px 40px;
+  background:white;
+  margin-top:10px;
+  box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+}
+.cardName{
+  font-family:"Muli Bold";
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+}
+
+.quote{
+  padding:20px 0px 20px 0px;
+}
+.cardText{
+  font-size: 14px;
+  width:500px;
+}
+.companyImg{
+  padding:80px 0px 60px 15px;
+}
+
+.secondCompany{
+  margin-top:50px;
+}
+.dText{
+  padding-top:200px;
+}
+
+@media (max-width: 768px) {
+
+.companyContainer{
+  flex-direction: column;
+  padding:0;
+  margin-left:10px;
+  margin-right:10px;
+  margin-top:10px;
+  margin-bottom: 450px;
+}
+
+.secondCompany{
+
+margin-top: 30px;
+
+}
+.dText{
+  padding-top:30px;
+}
+.companyCard{
+  flex-direction: column;
+  height:450px;
+  width:380px;
+}
+.cardText{
+  width:300px;
+}
+.companyImg{
+  display:none;
+}
+
+}
