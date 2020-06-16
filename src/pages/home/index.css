@@ -7,26 +7,32 @@
   background-position-x: 1200px;
 }
 
-.text{
-  width:40%;
+.homeText{
+  width:100%;
+  font-size: 20px;
+  background-color: #FAFAFA;
 padding-top:100px;
-padding-bottom:100px;
+padding-bottom:200px;
 
 }
 
 .bigText{
-font-family: 'Muli Bold';
-font-size:200px;
+  font-family: 'Muli Bold';
+  height:180px;
+  width:550px;
 line-height: 80px;
 }
-.getStartedBtn {
+.bigText h1{
+font-size:60px;
+}
+.getStartedHome {
 	background: #5BA660;
 	color: white;
 	border-radius: 5px;
-	height: 40px;
-	width: 170px;
+	height: 70px;
+	width: 250px;
   border: none;
-  margin-top:-5px;
+  margin-top:10px;
 
 }
 .partnerContainer{
@@ -56,11 +62,16 @@ width:100%
   height:50%;
 }
 .bigText{
-  width:70%;
-
-}
-.text{
   width:100%;
+height:120px;
+margin-right:50px;
+}
+.bigText h1{
+font-size: 40px;
+}
+.homeText{
+padding-top:100px;
+padding-bottom:100px;
 }
 .manImage{
   display:none;
@@ -74,7 +85,6 @@ height:50px;
   justify-content:space-evenly;
   padding:3px;
   height:70px;
-
 }
 .company{
 display:none;

@@ -1,16 +1,16 @@
 .footer {
-  display:flex;
-  justify-content:space-between;
-  padding-left:150px;
-  padding-right:150px;
+
   width: 100%;
   background-color:#002603;
   color: white;
+  padding-top:50px;
+  padding-bottom:50px;
+
+
 }
 .logoContainer{
-  margin-top:20px;
+  width:100%;
 }
-
 
 span {
   font-size:10px;
@@ -18,29 +18,39 @@ span {
 
 .footerHeader{
   display:flex;
-  margin-top:22px;
+  padding-top:22px;
 justify-content: space-between;
 }
 
 .footerItem{
   list-style-type: none;
+  width:200px;
 }
 .footerItem p{
   color:#BAD255;
 }
-
+.footerLogo{
+  margin-bottom:20px;
+}
 @media (max-width: 768px) {
   .footer{
     margin:0;
-    padding:0;
+    padding-left:5px;
     flex-direction: column;
+    background-color: #002603;
+
+  }
+  .footerItem{
+    background-color: #002603;
   }
   .footerHeader{
     flex-direction: column;
   }
-  .text {
-margin:0;
-}
+
+  .logoContainer{
+    padding-left:40px;
+    padding-bottom:40px;
+  }
  }
 
 
