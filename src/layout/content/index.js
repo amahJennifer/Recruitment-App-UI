@@ -5,6 +5,7 @@ import Talent from "../../pages/talent"
 import Tech from "../../pages/tech"
 import Company from "../../pages/company"
 import FAQ from "../../pages/faq"
+import STOP from "../../pages/stop"
 const index = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const index = () => {
       <Tech />
       <Company />
       <FAQ />
+<STOP/>
     </>
   )
 }

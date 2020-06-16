@@ -58,6 +58,7 @@ font-size: 14px;
   margin-right:10px;
   margin-top:10px;
   margin-bottom: 450px;
+  background-image: none;
 }
 
 .secondCompany{
@@ -67,6 +68,7 @@ margin-top: 30px;
 }
 .dText{
   padding-top:30px;
+  padding-left:30px;
 }
 .companyCard{
   flex-direction: column;

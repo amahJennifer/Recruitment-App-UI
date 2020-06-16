@@ -4,26 +4,28 @@ import kobo from "../../images/kobo.png"
 import interswitch from "../../images/Interswitch.png"
 import union from "../../images/union.png"
 import seamfix from "../../images/seamfix.png"
-
 import "./index.css";
+
 const home = () => {
   return (
 		<div>
 			<div className="firstSection content">
-				<div className="text">
+				<div className="homeText">
 					<div className="bigText">
 						<h1>
-							Hire the Best <br /> Software Talents
+							Hire the Best <br /> Software Talents .
 						</h1>
 					</div>
 
-					<p>
-						Best believe that the shortlisted
+          <p><b>
+            	Best believe that the shortlisted
 						<br /> software talents on this platform
 						<br />
 						are the top 3% in the country
+          </b>
+
 					</p>
-					<button className="getStartedBtn"> GET STARTED </button>
+					<button className="getStartedHome"> <b>GET STARTED </b></button>
 				</div>
 				<div className="manImage">
 					<img src={man} alt="man" />
